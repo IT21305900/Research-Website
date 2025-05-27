@@ -1,0 +1,1426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Powered Integrated Code Repository Analyzer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'vercel-black': '#000000',
+            'vercel-gray': '#666666',
+            'vercel-light-gray': '#fafafa',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-white text-vercel-black">
+  <!-- Navigation -->
+  <nav class="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="font-bold text-xl">Cody</div>
+        <div class="hidden md:flex space-x-8">
+          <a href="#home" class="text-vercel-gray hover:text-vercel-black transition-colors">Home</a>
+          <a href="#introduction" class="text-vercel-gray hover:text-vercel-black transition-colors">Introduction</a>
+          <a href="#domain" class="text-vercel-gray hover:text-vercel-black transition-colors">Domain</a>
+          <a href="#milestones" class="text-vercel-gray hover:text-vercel-black transition-colors">Milestones</a>
+          <a href="#conference" class="text-vercel-gray hover:text-vercel-black transition-colors">Conference</a>
+          <a href="#tools" class="text-vercel-gray hover:text-vercel-black transition-colors">Tools</a>
+          <a href="#team" class="text-vercel-gray hover:text-vercel-black transition-colors">Team</a>
+          <a href="#contact" class="text-vercel-gray hover:text-vercel-black transition-colors">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="pt-32 pb-32 bg-gradient-to-b from-gray-50 via-white to-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="mb-8">
+        <span class="bg-black text-white px-4 py-2 rounded-full text-sm font-medium">
+          🔬 Research Innovation
+        </span>
+      </div>
+      <h1
+        class="text-3xl md:text-6xl font-bold mb-8 bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 bg-clip-text text-transparent leading-tight">
+        AI Powered Code Repository Analyzer For Efficient Developer Workflow
+      </h1>
+      <p class="text-xl md:text-2xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed">
+        Revolutionizing developer workflow with intelligent code documentation, knowledge transfer, and automated
+        analysis powered by cutting-edge AI technologies
+      </p>
+      <div class="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
+        <a href="#introduction">
+          <button
+            class="bg-black text-white px-8 py-4 rounded-xl hover:bg-gray-800 transition-all duration-300 font-medium text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+            Explore Research
+          </button>
+        </a>
+        <a href="https://github.com/IT21305900/AI-Powered-Integrated-Code-Analyzer-for-Efficient-Developer-WorkFlow">
+          <button
+            class="flex  gap-4 border-2 border-gray-200 text-gray-700 px-8 py-4 rounded-xl hover:border-gray-300 hover:bg-gray-50 transition-all duration-300 font-medium text-lg">
+            <span> GitHub </span>
+            <img class="w-7 h-7" src="https://img.icons8.com/?size=100&id=LoL4bFzqmAa0&format=png&color=000000"
+              alt="gihub">
+          </button>
+        </a>
+      </div>
+
+      <!-- Key Metrics -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+        <div class="text-center">
+          <div class="text-4xl font-bold text-gray-900 mb-2">90%</div>
+          <div class="text-sm text-gray-600">Reduction in manual effort</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-bold text-gray-900 mb-2">6.8min</div>
+          <div class="text-sm text-gray-600">Average generation time</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-bold text-gray-900 mb-2">97%</div>
+          <div class="text-sm text-gray-600">Validation accuracy</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-bold text-gray-900 mb-2">50-60%</div>
+          <div class="text-sm text-gray-600">Faster onboarding</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Introduction -->
+  <section id="introduction" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-4xl font-bold mb-6">Transforming Developer Experience</h2>
+          <p class="text-lg text-vercel-gray mb-6">
+            Traditional Knowledge Transfer (KT) methods are resource-intensive and prone to obsolescence, hindering the
+            Software Development Life Cycle (SDLC) in fast-paced industrial settings.
+          </p>
+          <p class="text-lg text-vercel-gray mb-6">
+            Our AI-driven automation solution leverages large language models (LLMs) and advanced artificial
+            intelligence technologies to address critical gaps in technical knowledge transfer.
+          </p>
+          <div class="grid grid-cols-2 gap-6">
+            <div class="text-center">
+              <div class="text-3xl font-bold text-vercel-black">90%</div>
+              <div class="text-sm text-vercel-gray">Reduction in manual effort</div>
+            </div>
+            <div class="text-center">
+              <div class="text-3xl font-bold text-vercel-black">6.8 min</div>
+              <div class="text-sm text-vercel-gray">Average generation time</div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-vercel-light-gray p-8 rounded-2xl">
+          <div class="bg-white p-6 rounded-lg shadow-sm">
+            <h3 class="font-bold text-lg mb-2">Greeting Isuru Akalanka</h3>
+            <p class="text-vercel-gray text-sm mb-4">
+              Cody provides the developer tools to generate the code documentation, ai assistive knowledge transfer,
+              visual aid generation and coding guidelines.
+            </p>
+            <div class="flex justify-between items-center">
+              <input type="text" placeholder="Enter repository URL..." class="flex-1 p-2 border rounded mr-2">
+              <button class="bg-vercel-black text-white px-4 py-2 rounded">Clone</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Domain Section with Accordion -->
+  <section id="domain" class="py-20 bg-vercel-light-gray">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-4xl font-bold text-center mb-16">Research Domain</h2>
+      <div class="max-w-4xl mx-auto space-y-4">
+        <!-- Background -->
+        <div class="accordion-item bg-white rounded-lg shadow-sm">
+          <button
+            class="accordion-header w-full p-6 text-left flex justify-between items-center hover:bg-gray-50 transition-colors"
+            onclick="toggleAccordion(0)">
+            <h3 class="text-xl font-semibold">Background</h3>
+            <svg class="accordion-icon w-5 h-5 transition-transform" fill="none" stroke="currentColor"
+              viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div class="accordion-content hidden p-6 pt-0">
+            <p class="text-vercel-gray">
+              Modern software engineering covers vast domains including web development, mobile app development, IoT,
+              and cloud solutions. The dynamic nature necessitates frequent transitions between projects and technical
+              stacks, particularly in the JavaScript ecosystem with over 25 actively utilized frameworks.
+            </p>
+          </div>
+        </div>
+
+        <!-- Research Gap -->
+        <div class="accordion-item bg-white rounded-lg shadow-sm">
+          <button
+            class="accordion-header w-full p-6 text-left flex justify-between items-center hover:bg-gray-50 transition-colors"
+            onclick="toggleAccordion(1)">
+            <h3 class="text-xl font-semibold">Research Gap</h3>
+            <svg class="accordion-icon w-5 h-5 transition-transform" fill="none" stroke="currentColor"
+              viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div class="accordion-content hidden p-6 pt-0">
+            <p class="text-vercel-gray">
+              Traditional KT methods are resource-intensive and depend on experienced developers. General-purpose AI
+              tools lack capabilities for structured knowledge transfer, code summarization, and project-specific
+              assistance aligned with industrial software framework guidelines.
+            </p>
+          </div>
+        </div>
+
+        <!-- Research Problem -->
+        <div class="accordion-item bg-white rounded-lg shadow-sm">
+          <button
+            class="accordion-header w-full p-6 text-left flex justify-between items-center hover:bg-gray-50 transition-colors"
+            onclick="toggleAccordion(2)">
+            <h3 class="text-xl font-semibold">Research Problem</h3>
+            <svg class="accordion-icon w-5 h-5 transition-transform" fill="none" stroke="currentColor"
+              viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div class="accordion-content hidden p-6 pt-0">
+            <p class="text-vercel-gray">
+              How can AI-driven automation enhance documentation, knowledge transfer, and code analysis while adhering
+              to industry standards to improve developer productivity and streamline onboarding processes in modern
+              development environments?
+            </p>
+          </div>
+        </div>
+
+        <!-- Research Objective -->
+        <div class="accordion-item bg-white rounded-lg shadow-sm">
+          <button
+            class="accordion-header w-full p-6 text-left flex justify-between items-center hover:bg-gray-50 transition-colors"
+            onclick="toggleAccordion(3)">
+            <h3 class="text-xl font-semibold">Research Objective</h3>
+            <svg class="accordion-icon w-5 h-5 transition-transform" fill="none" stroke="currentColor"
+              viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div class="accordion-content hidden p-6 pt-0">
+            <p class="text-vercel-gray">
+              To develop an AI-powered automation tool that enhances documentation, knowledge transfer, and code
+              analysis while adhering to industry standards, ultimately improving onboarding efficiency and developer
+              productivity in modern development environments.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Milestones -->
+  <section class="py-20 px-5 max-w-6xl mx-auto">
+    <!-- Section Header -->
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
+        Project Timeline
+      </h2>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+        Track our progress through key assessments and development phases from initial proposal to final presentation.
+      </p>
+    </div>
+
+    <!-- Timeline Container -->
+    <div class="relative max-w-4xl mx-auto">
+      <!-- Timeline Line -->
+      <div
+        class="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-500 via-purple-500 via-orange-500 via-indigo-500 via-yellow-500 to-green-500">
+      </div>
+
+      <!-- Timeline Items -->
+      <div class="space-y-12">
+        <!-- TAF - May 13, 2024 -->
+        <div class="relative flex items-start">
+          <div class="absolute left-6 w-4 h-4 bg-blue-500 rounded-full border-4 border-white shadow-lg z-10"></div>
+          <div class="ml-16 w-full">
+            <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="flex-1">
+                  <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xl font-semibold text-gray-900">Topic Assessment Form (TAF)</h3>
+                    <span
+                      class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+                  </div>
+                  <p class="text-sm text-blue-600 font-medium mb-2">May 13, 2024</p>
+                  <p class="text-gray-600 text-sm">Initial topic assessment and project charter approval</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proposal Report - Aug 16, 2024 -->
+        <div class="relative flex items-start">
+          <div class="absolute left-6 w-4 h-4 bg-purple-500 rounded-full border-4 border-white shadow-lg z-10"></div>
+          <div class="ml-16 w-full">
+            <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="flex-1">
+                  <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xl font-semibold text-gray-900">Project Proposal</h3>
+                    <span
+                      class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+                  </div>
+                  <p class="text-sm text-purple-600 font-medium mb-2">August 16, 2024</p>
+                  <p class="text-gray-600 text-sm mb-3">Comprehensive project proposal with methodology and research
+                    objectives</p>
+                  <span class="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded">Marks Allocated: 6%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Progress Presentation 1 - Dec 4, 2024 -->
+        <div class="relative flex items-start">
+          <div class="absolute left-6 w-4 h-4 bg-orange-500 rounded-full border-4 border-white shadow-lg z-10"></div>
+          <div class="ml-16 w-full">
+            <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="flex-1">
+                  <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xl font-semibold text-gray-900">Progress Presentation I</h3>
+                    <span
+                      class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+                  </div>
+                  <p class="text-sm text-orange-600 font-medium mb-2">December 4, 2024</p>
+                  <p class="text-gray-600 text-sm mb-3">50% completion evaluation and progress review by panel of judges
+                  </p>
+                  <span class="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded">Marks Allocated: 15%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Progress Presentation 2 - Mar 18, 2025 -->
+        <div class="relative flex items-start">
+          <div class="absolute left-6 w-4 h-4 bg-indigo-500 rounded-full border-4 border-white shadow-lg z-10"></div>
+          <div class="ml-16 w-full">
+            <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="flex-1">
+                  <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xl font-semibold text-gray-900">Progress Presentation II</h3>
+                    <span
+                      class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+                  </div>
+                  <p class="text-sm text-indigo-600 font-medium mb-2">March 18, 2025</p>
+                  <p class="text-gray-600 text-sm mb-3">90% completion evaluation and final system demonstration</p>
+                  <span class="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded">Marks Allocated: 15%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Research Conference - 2025 -->
+        <div class="relative flex items-start">
+          <div class="absolute left-6 w-4 h-4 bg-yellow-500 rounded-full border-4 border-white shadow-lg z-10"></div>
+          <div class="ml-16 w-full">
+            <div
+              class="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-shadow border-l-4 border-l-yellow-500">
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg class="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="flex-1">
+                  <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xl font-semibold text-gray-900">Research Conference</h3>
+                    <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">Presented</span>
+                  </div>
+                  <p class="text-sm text-yellow-600 font-medium mb-2">April 3, 2025 - University of Kelaniya</p>
+                  <p class="text-gray-600 text-sm">8th International Research Conference on Smart Computing and Systems
+                    Engineering</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Final Presentation - May 26-28, 2025 -->
+        <div class="relative flex items-start">
+          <div class="absolute left-6 w-4 h-4 bg-green-500 rounded-full border-4 border-white shadow-lg z-10"></div>
+          <div class="ml-16 w-full">
+            <div
+              class="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-shadow border-l-4 border-l-green-500">
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="flex-1">
+                  <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-xl font-semibold text-gray-900">Final Presentation & VIVA</h3>
+                    <span
+                      class="bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full text-sm font-medium">Completed</span>
+                  </div>
+                  <p class="text-sm text-green-600 font-medium mb-2">May 28, 2025</p>
+                  <p class="text-gray-600 text-sm mb-3">Final project presentation and comprehensive evaluation</p>
+                  <span class="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded">Marks Allocated: 50%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Progress Summary Cards -->
+    <div class="mt-16 bg-white rounded-2xl p-8 shadow-sm border border-gray-200">
+      <div class="text-center mb-8">
+        <h3 class="text-2xl font-bold text-gray-900 mb-2">Project Progress Summary</h3>
+        <p class="text-gray-600">Our research journey from concept to completion</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="text-center p-6 bg-gray-50 rounded-xl">
+          <div class="w-16 h-16 bg-green-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h4 class="font-bold text-lg text-gray-900 mb-2">6/6 Milestones</h4>
+          <p class="text-sm font-medium text-gray-600">Successfully completed major project phases</p>
+        </div>
+
+        <div class="text-center p-6 bg-gray-50 rounded-xl">
+          <div class="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h4 class="font-bold text-lg text-gray-900 mb-2">12+ Months</h4>
+          <p class="text-sm font-medium text-gray-600">Comprehensive research and development timeline</p>
+        </div>
+
+        <div class="text-center p-6 bg-gray-50 rounded-xl">
+          <div class="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253">
+              </path>
+            </svg>
+          </div>
+          <h4 class="font-bold text-lg text-gray-900 mb-2">Conference Paper</h4>
+          <p class="text-sm text-gray-600 font-medium">Research published at international conference</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We Provide -->
+  <section id="provide" class="py-32 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-20">
+        <h2
+          class="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 bg-clip-text text-transparent">
+          What We Provide
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          Our comprehensive AI-driven solution addresses every aspect of modern software development workflow
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Automated Documentation -->
+        <div class="group relative">
+          <div
+            class="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition duration-500">
+          </div>
+          <div
+            class="relative bg-white border border-gray-100 rounded-3xl p-10 hover:border-gray-200 transition-all duration-300 hover:shadow-2xl">
+            <div class="flex items-start space-x-6">
+              <div class="flex-shrink-0">
+                <div
+                  class="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center">
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">Automated Documentation</h3>
+                <p class="text-gray-600 mb-6 leading-relaxed">
+                  Generate comprehensive code documentation in just 6.8 minutes with 90% reduction in manual effort. Our
+                  AI-powered system analyzes your Next.js codebase and creates industry-standard documentation
+                  automatically.
+                </p>
+                <div class="flex items-center space-x-6">
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-blue-600">6.8min</div>
+                    <div class="text-xs text-gray-500">Generation Time</div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-blue-600">90%</div>
+                    <div class="text-xs text-gray-500">Effort Reduction</div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-blue-600">$0.33</div>
+                    <div class="text-xs text-gray-500">Average Cost</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Knowledge Transfer Assistant -->
+        <div class="group relative">
+          <div
+            class="absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-teal-500/10 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition duration-500">
+          </div>
+          <div
+            class="relative bg-white border border-gray-100 rounded-3xl p-10 hover:border-gray-200 transition-all duration-300 hover:shadow-2xl">
+            <div class="flex items-start space-x-6">
+              <div class="flex-shrink-0">
+                <div
+                  class="w-16 h-16 bg-gradient-to-r from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center">
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">Knowledge Transfer Assistant</h3>
+                <p class="text-gray-600 mb-6 leading-relaxed">
+                  AI-powered chatbot with emotional intelligence that reduces onboarding time by 50-60%. Features
+                  real-time sentiment analysis and adaptive learning for personalized developer support.
+                </p>
+                <div class="flex items-center space-x-6">
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-emerald-600">50-60%</div>
+                    <div class="text-xs text-gray-500">Time Reduction</div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-emerald-600">1-2hr</div>
+                    <div class="text-xs text-gray-500">Senior Dev Time</div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-emerald-600">$8.4k</div>
+                    <div class="text-xs text-gray-500">Monthly Savings</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual Diagram Generator -->
+        <div class="group relative">
+          <div
+            class="absolute inset-0 bg-gradient-to-r from-orange-500/10 to-red-500/10 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition duration-500">
+          </div>
+          <div
+            class="relative bg-white border border-gray-100 rounded-3xl p-10 hover:border-gray-200 transition-all duration-300 hover:shadow-2xl">
+            <div class="flex items-start space-x-6">
+              <div class="flex-shrink-0">
+                <div
+                  class="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-600 rounded-2xl flex items-center justify-center">
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">Visual Diagram Generator</h3>
+                <p class="text-gray-600 mb-6 leading-relaxed">
+                  Automated activity diagrams with 97% validation accuracy for better code understanding. Generates
+                  comprehensive visual representations of component interactions and system flow.
+                </p>
+                <div class="flex items-center space-x-6">
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-orange-600">97%</div>
+                    <div class="text-xs text-gray-500">Validation Accuracy</div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-orange-600">3.5-6min</div>
+                    <div class="text-xs text-gray-500">Processing Time</div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-orange-600">40%</div>
+                    <div class="text-xs text-gray-500">Review Reduction</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Code Smell Detection -->
+        <div class="group relative">
+          <div
+            class="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition duration-500">
+          </div>
+          <div
+            class="relative bg-white border border-gray-100 rounded-3xl p-10 hover:border-gray-200 transition-all duration-300 hover:shadow-2xl">
+            <div class="flex items-start space-x-6">
+              <div class="flex-shrink-0">
+                <div
+                  class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center">
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M9 5H7a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M13 5h2a2 2 0 012 2v6a2 2 0 01-2 2h-2a2 2 0 01-2-2V7a2 2 0 012-2z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M9 17v2a2 2 0 002 2h2a2 2 0 002-2v-2"></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">Code Smell Detection</h3>
+                <p class="text-gray-600 mb-6 leading-relaxed">
+                  Advanced LSTM-powered detection system with 71% accuracy in identifying code and design smells.
+                  Provides actionable feedback for maintaining high-quality, maintainable codebases.
+                </p>
+                <div class="flex items-center space-x-6">
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-purple-600">71%</div>
+                    <div class="text-xs text-gray-500">Detection Accuracy</div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-purple-600">9</div>
+                    <div class="text-xs text-gray-500">Smell Types</div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-purple-600">0.70</div>
+                    <div class="text-xs text-gray-500">F1-Score</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Documents -->
+  <section id="documents" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-4xl font-bold text-center mb-16">Project Documents</h2>
+      <div class="grid md:grid-cols-3 gap-4">
+
+        <div class="border border-gray-200 rounded-none p-6 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-lg mb-2">Topic Assesment Form (TAF)</h3>
+          <p class="text-vercel-gray mb-4">Initial topic assesemnet form for the research</p>
+          <a href="/path-to-your-pdf.pdf" download class="text-vercel-black font-medium hover:underline">
+            Download PDF →
+          </a>
+        </div>
+
+        <div class="border border-gray-200 rounded-none p-6 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-lg mb-2">Project Proposal</h3>
+          <p class="text-vercel-gray mb-4">Official group project proposal</p>
+          <a href="/path-to-your-pdf.pdf" download class="text-vercel-black font-medium hover:underline">
+            Download PDF →
+          </a>
+        </div>
+
+        <div class="border border-gray-200 rounded-none p-6 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-lg mb-2">Project Proposal IT21305900</h3>
+          <p class="text-vercel-gray mb-4">Hetttiarachchige H.I.A Project Proposal</p>
+          <button class="text-vercel-black font-medium hover:underline">Download PDF →</button>
+        </div>
+
+        <div class="border border-gray-200 rounded-none p-6 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-lg mb-2">Project Proposal IT</h3>
+          <p class="text-vercel-gray mb-4">S.K.S De Silva Project Proposal</p>
+          <button class="text-vercel-black font-medium hover:underline">Download PDF →</button>
+        </div>
+
+        <div class="border border-gray-200 rounded-none p-6 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-lg mb-2">Project Proposal IT</h3>
+          <p class="text-vercel-gray mb-4">A.M.N.A.S Abeykoon Proposal</p>
+          <button class="text-vercel-black font-medium hover:underline">Download PDF →</button>
+        </div>
+
+        <div class="border border-gray-200 rounded-none p-6 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-lg mb-2">Project Proposal IT</h3>
+          <p class="text-vercel-gray mb-4">Mayuran G. Proposal</p>
+          <button class="text-vercel-black font-medium hover:underline">Download PDF →</button>
+        </div>
+
+        <div class="border border-gray-200 rounded-none p-6 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-lg mb-2">Deployment Report</h3>
+          <p class="text-vercel-gray mb-4">Application Deployment Report</p>
+          <button class="text-vercel-black font-medium hover:underline">Download PDF →</button>
+        </div>
+
+        <div class="border border-gray-200 rounded-none p-6 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-lg mb-2">Research Paper</h3>
+          <p class="text-vercel-gray mb-4">Finalize Research Paper</p>
+          <button class="text-vercel-black font-medium hover:underline">Download PDF →</button>
+        </div>
+
+        <div class="border border-gray-200 rounded-none p-6 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-lg mb-2">Final Report</h3>
+          <p class="text-vercel-gray mb-4">Research Final Report</p>
+          <button class="text-vercel-black font-medium hover:underline">Download PDF →</button>
+        </div>
+
+        <div class="border border-gray-200 rounded-none p-6 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-lg mb-2">Final Report IT21305900</h3>
+          <p class="text-vercel-gray mb-4">Hettiarachchige H.I.A Research Final Report</p>
+          <button class="text-vercel-black font-medium hover:underline">Download PDF →</button>
+        </div>
+
+        <div class="border border-gray-200 rounded-none p-6 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-lg mb-2">Final Report </h3>
+          <p class="text-vercel-gray mb-4">S.K.S De Silva Research Final Report</p>
+          <button class="text-vercel-black font-medium hover:underline">Download PDF →</button>
+        </div>
+
+        <div class="border border-gray-200 rounded-none p-6 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-lg mb-2">Final Report </h3>
+          <p class="text-vercel-gray mb-4">S.K.S De Silva Research Final Report</p>
+          <button class="text-vercel-black font-medium hover:underline">Download PDF →</button>
+        </div>
+
+        <div class="border border-gray-200 rounded-none p-6 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-lg mb-2">Final Report </h3>
+          <p class="text-vercel-gray mb-4">S.K.S De Silva Research Final Report</p>
+          <button class="text-vercel-black font-medium hover:underline">Download PDF →</button>
+        </div>
+
+        <div class="border border-gray-200 rounded-none p-6 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-lg mb-2">Final Report </h3>
+          <p class="text-vercel-gray mb-4">S.K.S De Silva Research Final Report</p>
+          <button class="text-vercel-black font-medium hover:underline">Download PDF →</button>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+  <!-- Tools & Technologies -->
+  <section class="py-20 px-5 max-w-7xl mx-auto">
+    <!-- Section Header -->
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
+        Technologies & Tools
+      </h2>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+        Our research leverages cutting-edge AI technologies and modern development frameworks to deliver comprehensive
+        code analysis solutions.
+      </p>
+    </div>
+
+    <!-- AI & Machine Learning -->
+    <div class="mb-16">
+      <h3 class="text-xl font-semibold mb-6 text-gray-900">AI & Machine Learning</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div
+          class="bg-white border border-gray-200 rounded-xl p-6 transition-all duration-200 hover:border-gray-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer group">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 flex items-center justify-center">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openai/openai-original.svg" alt="OpenAI"
+                class="w-full h-full object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">OpenAI GPT-4</h4>
+              <span class="text-sm text-gray-500">Large Language Model</span>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Advanced natural language processing for intelligent code documentation and analysis.
+          </p>
+        </div>
+
+        <div
+          class="bg-white border border-gray-200 rounded-xl p-6 transition-all duration-200 hover:border-gray-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer group">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 flex items-center justify-center">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+                alt="TensorFlow" class="w-full h-full object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">LSTM Networks</h4>
+              <span class="text-sm text-gray-500">Neural Networks</span>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Deep learning architecture for code smell detection and pattern recognition.
+          </p>
+        </div>
+
+        <div
+          class="bg-white border border-gray-200 rounded-xl p-6 transition-all duration-200 hover:border-gray-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer group">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 flex items-center justify-center">
+              <img src="https://avatars.githubusercontent.com/u/126733545?s=200&v=4" alt="RAG"
+                class="w-full h-full object-contain rounded">
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">RAG Architecture</h4>
+              <span class="text-sm text-gray-500">Retrieval Augmented Generation</span>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Enhanced AI responses through semantic search and context retrieval.
+          </p>
+        </div>
+
+        <div
+          class="bg-white border border-gray-200 rounded-xl p-6 transition-all duration-200 hover:border-gray-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer group">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 flex items-center justify-center">
+              <img src="https://ollama.com/public/ollama.png" alt="Ollama" class="w-full h-full object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">Ollama (Llama 3.1)</h4>
+              <span class="text-sm text-gray-500">Local LLM Processing</span>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Local language model for enhanced privacy and performance optimization.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Development Frameworks -->
+    <div class="mb-16">
+      <h3 class="text-xl font-semibold mb-6 text-gray-900">Development Frameworks</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div
+          class="bg-white border border-gray-200 rounded-xl p-6 transition-all duration-200 hover:border-blue-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer group">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 flex items-center justify-center">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js"
+                class="w-full h-full object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">Next.js 14</h4>
+              <span class="text-sm text-gray-500">Full-stack React Framework</span>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Modern React framework with App Router and server-side rendering capabilities.
+          </p>
+        </div>
+
+        <div
+          class="bg-white border border-gray-200 rounded-xl p-6 transition-all duration-200 hover:border-blue-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer group">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 flex items-center justify-center">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"
+                class="w-full h-full object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">React</h4>
+              <span class="text-sm text-gray-500">UI Component Library</span>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Component-based architecture for building interactive user interfaces.
+          </p>
+        </div>
+
+        <div
+          class="bg-white border border-gray-200 rounded-xl p-6 transition-all duration-200 hover:border-blue-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer group">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 flex items-center justify-center">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"
+                class="w-full h-full object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">Node.js</h4>
+              <span class="text-sm text-gray-500">JavaScript Runtime</span>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Server-side JavaScript runtime for backend development and API creation.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Data & Analysis Tools -->
+    <div class="mb-16">
+      <h3 class="text-xl font-semibold mb-6 text-gray-900">Data & Analysis Tools</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div
+          class="bg-white border border-gray-200 rounded-xl p-6 transition-all duration-200 hover:border-amber-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer group">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 flex items-center justify-center">
+              <img src="https://docs.trychroma.com/img/chroma.png" alt="ChromaDB" class="w-full h-full object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">ChromaDB</h4>
+              <span class="text-sm text-gray-500">Vector Database</span>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Open-source embedding database for AI-powered semantic search.
+          </p>
+        </div>
+
+        <div
+          class="bg-white border border-gray-200 rounded-xl p-6 transition-all duration-200 hover:border-amber-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer group">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 flex items-center justify-center">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="AST"
+                class="w-full h-full object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">Abstract Syntax Tree</h4>
+              <span class="text-sm text-gray-500">Code Parsing</span>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Tree representation of code structure for deep semantic analysis.
+          </p>
+        </div>
+
+        <div
+          class="bg-white border border-gray-200 rounded-xl p-6 transition-all duration-200 hover:border-amber-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer group">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 flex items-center justify-center bg-gray-100 rounded">
+              <svg class="w-5 h-5 text-gray-700" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+              </svg>
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">LangGraphJS</h4>
+              <span class="text-sm text-gray-500">AI Agent Framework</span>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Structured workflow management for AI agent coordination.
+          </p>
+        </div>
+
+        <div
+          class="bg-white border border-gray-200 rounded-xl p-6 transition-all duration-200 hover:border-amber-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer group">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 flex items-center justify-center">
+              <img src="https://networkx.org/_static/networkx_logo.svg" alt="NetworkX"
+                class="w-full h-full object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">NetworkX</h4>
+              <span class="text-sm text-gray-500">Graph Analysis</span>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Python library for complex network and graph structure analysis.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Development Tools -->
+    <div class="mb-16">
+      <h3 class="text-xl font-semibold mb-6 text-gray-900">Development Tools</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div
+          class="bg-white border border-gray-200 rounded-xl p-6 transition-all duration-200 hover:border-purple-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer group">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 flex items-center justify-center">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"
+                class="w-full h-full object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">GitHub</h4>
+              <span class="text-sm text-gray-500">Version Control & Integration</span>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Repository hosting and version control for seamless project integration.
+          </p>
+        </div>
+
+        <div
+          class="bg-white border border-gray-200 rounded-xl p-6 transition-all duration-200 hover:border-purple-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer group">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 flex items-center justify-center">
+              <img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_black_.png" alt="OpenCV"
+                class="w-full h-full object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">OpenCV</h4>
+              <span class="text-sm text-gray-500">Computer Vision</span>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Real-time facial emotion recognition for developer wellness monitoring.
+          </p>
+        </div>
+
+        <div
+          class="bg-white border border-gray-200 rounded-xl p-6 transition-all duration-200 hover:border-purple-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer group">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 flex items-center justify-center">
+              <img src="https://matplotlib.org/_static/images/logo2.svg" alt="Matplotlib"
+                class="w-full h-full object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">Matplotlib</h4>
+              <span class="text-sm text-gray-500">Data Visualization</span>
+            </div>
+          </div>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Comprehensive plotting library for generating activity diagrams and visualizations.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-4xl font-bold text-center mb-16">Key Achievements</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+        <div>
+          <div class="text-4xl font-bold text-vercel-black mb-2">90%</div>
+          <p class="text-vercel-gray">Reduction in manual documentation effort</p>
+        </div>
+        <div>
+          <div class="text-4xl font-bold text-vercel-black mb-2">97%</div>
+          <p class="text-vercel-gray">Diagram validation accuracy</p>
+        </div>
+        <div>
+          <div class="text-4xl font-bold text-vercel-black mb-2">71%</div>
+          <p class="text-vercel-gray">Code smell detection accuracy</p>
+        </div>
+        <div>
+          <div class="text-4xl font-bold text-vercel-black mb-2">50-60%</div>
+          <p class="text-vercel-gray">Reduction in onboarding time</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Conference Presentation -->
+  <section id="conference" class="py-20 bg-vercel-light-gray">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold mb-6">Conference Presentation</h2>
+        <p class="text-xl text-vercel-gray max-w-3xl mx-auto">
+          Our research was presented at a prestigious international conference, contributing to the global discourse on
+          AI-driven software engineering solutions
+        </p>
+      </div>
+
+      <div class="max-w-5xl mx-auto">
+        <div class="bg-white rounded-3xl shadow-lg overflow-hidden">
+          <div class="bg-gradient-to-r from-blue-600 to-purple-700 p-8 text-white">
+            <div class="flex items-center justify-between mb-6">
+              <div class="flex items-center space-x-4">
+                <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center">
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z">
+                    </path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold">8ᵗʰ International Research Conference</h3>
+                  <p class="text-blue-100">Smart Computing and Systems Engineering</p>
+                </div>
+              </div>
+              <div class="text-right">
+                <div class="text-lg font-semibold">2025</div>
+                <div class="text-blue-100">Sri Lanka</div>
+              </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+              <div>
+                <h4 class="font-semibold mb-2 flex items-center">
+                  <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                  </svg>
+                  Venue
+                </h4>
+                <p class="text-blue-100">University of Kelaniya, Sri Lanka</p>
+              </div>
+              <div>
+                <h4 class="font-semibold mb-2 flex items-center">
+                  <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253">
+                    </path>
+                  </svg>
+                  Focus Area
+                </h4>
+                <p class="text-blue-100">AI-Powered Software Engineering</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-8">
+            <div class="grid md:grid-cols-2 gap-8">
+              <div>
+                <h4 class="text-xl font-semibold mb-4 text-vercel-black">Paper Title</h4>
+                <p class="text-vercel-gray mb-6">
+                  "AI Powered Integrated Code Repository Analyzer for Efficient Developer Workflow"
+                </p>
+
+                <h4 class="text-xl font-semibold mb-4 text-vercel-black">Key Contributions</h4>
+                <ul class="space-y-2 text-vercel-gray">
+                  <li class="flex items-start">
+                    <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" fill="currentColor"
+                      viewBox="0 0 20 20">
+                      <path fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                    Novel AI-driven automation for code documentation
+                  </li>
+                  <li class="flex items-start">
+                    <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" fill="currentColor"
+                      viewBox="0 0 20 20">
+                      <path fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                    Intelligent knowledge transfer with emotional intelligence
+                  </li>
+                  <li class="flex items-start">
+                    <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" fill="currentColor"
+                      viewBox="0 0 20 20">
+                      <path fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                    Automated visual diagram generation
+                  </li>
+                  <li class="flex items-start">
+                    <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" fill="currentColor"
+                      viewBox="0 0 20 20">
+                      <path fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                    Advanced code smell detection and feedback
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h4 class="text-xl font-semibold mb-4 text-vercel-black">Research Impact</h4>
+                <div class="space-y-4 mb-6">
+                  <div class="bg-vercel-light-gray p-4 rounded-lg">
+                    <div class="text-2xl font-bold text-vercel-black">90%</div>
+                    <div class="text-sm text-vercel-gray">Reduction in documentation effort</div>
+                  </div>
+                  <div class="bg-vercel-light-gray p-4 rounded-lg">
+                    <div class="text-2xl font-bold text-vercel-black">50-60%</div>
+                    <div class="text-sm text-vercel-gray">Faster developer onboarding</div>
+                  </div>
+                  <div class="bg-vercel-light-gray p-4 rounded-lg">
+                    <div class="text-2xl font-bold text-vercel-black">97%</div>
+                    <div class="text-sm text-vercel-gray">Diagram validation accuracy</div>
+                  </div>
+                </div>
+
+                <div class="space-y-3">
+                  <a href="https://mysliit-my.sharepoint.com/:b:/g/personal/it21305900_my_sliit_lk/EdAFfbBONQZNhsWm9UiDXWkBGuRll3hBR5rrjtF4Foi_pg?e=aJAw2r"
+                    class="flex items-center justify-between bg-vercel-black text-white p-4 rounded-lg hover:bg-gray-800 transition-colors group">
+                    <span class="font-medium">Read Full Paper</span>
+                    <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none"
+                      stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                    </svg>
+                  </a>
+                  <div class="border border-gray-200 text-vercel-gray p-4 rounded-lg">
+                    <div class="flex items-center justify-between">
+                      <span class="font-medium">Official Publication</span>
+                      <span class="text-sm bg-yellow-100 text-yellow-800 px-2 py-1 rounded-full">Coming Soon</span>
+                    </div>
+                    <p class="text-sm mt-2">IEEE proceedings will be available soon</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-8 pt-8 border-t border-gray-200">
+              <div class="flex flex-wrap items-center gap-4">
+                <span class="text-sm font-medium text-vercel-gray">Conference Tags:</span>
+                <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Artificial Intelligence</span>
+                <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Software Engineering</span>
+                <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Code Analysis</span>
+                <span class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">Developer Tools</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-4xl font-bold text-center mb-16">Research Team</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-2xl text-center">
+          <div
+            class="w-20 h-20 bg-vercel-black rounded-full mx-auto mb-4 flex items-center justify-center text-white text-xl font-bold">
+            IH</div>
+          <h3 class="font-semibold text-lg">Isuru A. Hettiarachchi</h3>
+          <p class="text-vercel-gray text-sm">Lead Researcher</p>
+          <p class="text-vercel-gray text-xs">it21305900@my.sliit.lk</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl text-center">
+          <div
+            class="w-20 h-20 bg-vercel-black rounded-full mx-auto mb-4 flex items-center justify-center text-white text-xl font-bold">
+            AA</div>
+          <h3 class="font-semibold text-lg">A.M.N.A.S Abeykoon</h3>
+          <p class="text-vercel-gray text-sm">Co-Researcher</p>
+          <p class="text-vercel-gray text-xs">it21218026@my.sliit.lk</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl text-center">
+          <div
+            class="w-20 h-20 bg-vercel-black rounded-full mx-auto mb-4 flex items-center justify-center text-white text-xl font-bold">
+            DS</div>
+          <h3 class="font-semibold text-lg">De Silva S.K.S</h3>
+          <p class="text-vercel-gray text-sm">Co-Researcher</p>
+          <p class="text-vercel-gray text-xs">it21180620@my.sliit.lk</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl text-center">
+          <div
+            class="w-20 h-20 bg-vercel-black rounded-full mx-auto mb-4 flex items-center justify-center text-white text-xl font-bold">
+            DW</div>
+          <h3 class="font-semibold text-lg">Dinuka R. Wijendra</h3>
+          <p class="text-vercel-gray text-sm">Supervisor</p>
+          <p class="text-vercel-gray text-xs">dinuka.w@sliit.lk</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl text-center">
+          <div
+            class="w-20 h-20 bg-vercel-black rounded-full mx-auto mb-4 flex items-center justify-center text-white text-xl font-bold">
+            MG</div>
+          <h3 class="font-semibold text-lg">Mayuran Ganeshalingam</h3>
+          <p class="text-vercel-gray text-sm">Co-Researcher</p>
+          <p class="text-vercel-gray text-xs">it21354724@my.sliit.lk</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl text-center">
+          <div
+            class="w-20 h-20 bg-vercel-black rounded-full mx-auto mb-4 flex items-center justify-center text-white text-xl font-bold">
+            JK</div>
+          <h3 class="font-semibold text-lg">Jenny Krishara</h3>
+          <p class="text-vercel-gray text-sm">Co-Supervisor</p>
+          <p class="text-vercel-gray text-xs">jenny.k@sliit.lk</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-4xl font-bold mb-8">Get In Touch</h2>
+      <p class="text-xl text-vercel-gray mb-12">
+        Interested in our research or want to collaborate? We'd love to hear from you.
+      </p>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-vercel-light-gray p-8 rounded-2xl">
+          <h3 class="font-semibold text-lg mb-4">Research Inquiries</h3>
+          <p class="text-vercel-gray mb-4">For questions about our methodology or findings</p>
+          <a href="mailto:it21305900@my.sliit.lk"
+            class="text-vercel-black font-medium hover:underline">it21305900@my.sliit.lk</a>
+        </div>
+        <div class="bg-vercel-light-gray p-8 rounded-2xl">
+          <h3 class="font-semibold text-lg mb-4">Collaboration</h3>
+          <p class="text-vercel-gray mb-4">Interested in extending or building upon our work</p>
+          <a href="mailto:dinuka.w@sliit.lk" class="text-vercel-black font-medium hover:underline">dinuka.w@sliit.lk</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-vercel-black text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-4 gap-8">
+        <div>
+          <h3 class="font-bold text-xl mb-4">Cody</h3>
+          <p class="text-gray-400 text-sm">
+            AI Powered Integrated Code Repository Analyzer for Efficient Developer Workflow
+          </p>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4">Research</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li><a href="#domain" class="hover:text-white transition-colors">Domain</a></li>
+            <li><a href="#methodology" class="hover:text-white transition-colors">Methodology</a></li>
+            <li><a href="#achievements" class="hover:text-white transition-colors">Results</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4">Resources</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li><a href="#documents" class="hover:text-white transition-colors">Documents</a></li>
+            <li><a href="#tools" class="hover:text-white transition-colors">Tools</a></li>
+            <li><a href="#provide" class="hover:text-white transition-colors">Features</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4">Institution</h4>
+          <p class="text-gray-400 text-sm">
+            Sri Lanka Institute of Information Technology<br>
+            Faculty of Computing<br>
+            Malabe, Sri Lanka
+          </p>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
+        <p>&copy; 2025 SLIIT Research Team. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    // Accordion functionality
+    function toggleAccordion(index) {
+      const items = document.querySelectorAll('.accordion-item');
+      const currentItem = items[index];
+      const content = currentItem.querySelector('.accordion-content');
+      const icon = currentItem.querySelector('.accordion-icon');
+
+      // Close all other accordions
+      items.forEach((item, i) => {
+        if (i !== index) {
+          const otherContent = item.querySelector('.accordion-content');
+          const otherIcon = item.querySelector('.accordion-icon');
+          otherContent.classList.add('hidden');
+          otherIcon.style.transform = 'rotate(0deg)';
+        }
+      });
+
+      // Toggle current accordion
+      if (content.classList.contains('hidden')) {
+        content.classList.remove('hidden');
+        icon.style.transform = 'rotate(180deg)';
+      } else {
+        content.classList.add('hidden');
+        icon.style.transform = 'rotate(0deg)';
+      }
+    }
+
+    // Add scroll effect to navigation
+    window.addEventListener('scroll', function () {
+      const nav = document.querySelector('nav');
+      if (window.scrollY > 50) {
+        nav.classList.add('shadow-sm');
+      } else {
+        nav.classList.remove('shadow-sm');
+      }
+    });
+
+    // Intersection Observer for fade-in animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, observerOptions);
+
+    // Apply fade-in animation to sections
+    document.querySelectorAll('section').forEach(section => {
+      section.style.opacity = '0';
+      section.style.transform = 'translateY(20px)';
+      section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+      observer.observe(section);
+    });
+
+    // Mobile menu toggle (if you want to add mobile menu later)
+    const mobileMenuToggle = () => {
+      // Implementation for mobile menu
+    };
+  </script>
+</body>
+
+</html>
